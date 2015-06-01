@@ -1,3 +1,6 @@
+% finds the average regret over a game with 'T' many rounds. 
+% The final regret is repeated and averaged over 'repeatition' many
+% times. 
 function regret = simulateRandomForGivenT(T, repetition)
 % repetition = 100;
 epsilon = 0.99;
